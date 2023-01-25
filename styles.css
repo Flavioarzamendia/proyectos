@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Main Styling */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+   color:#fff;
+   background-color: #21222c;
+   /* Este color no es negro completamente pero para un fondo oscuro en una web
+    es mejor uno de este tipo a un negro puro ya que es muy intenso.
+   */
+}
+
+h2 {
+	font-size: 1.8rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-bottom: 50px;
+}
+
+h4 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 500;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+    
+}
+
+.large {
+	font-size: 20px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 15px 40px;
+	letter-spacing: 1px;
+    border-radius: 25px;
+}
+
+.btn-outline {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.btn-outline:hover {
+	background:  #249BF1;
+	color: #fff;
+}
+
+/* Navbar */
+#navbar {
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	font-size: 16px;
+	color:#fff;
+}
+
+#navbar .logo {
+	float: left;
+	padding-top: 12px;
+}
+
+#navbar img {
+	height: 50px;
+    border-radius: 100%;
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: flex;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Showcase */
+#showcase {
+	background: url('/img/showcase.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	padding: 100px;
+}
+
+#showcase .btn {
+	margin-top: 250px;
+}
+
+/* Projects */
+#projects {
+    background:  #249BF1;
+	padding: 80px 0;
+}
+
+.projects-row {
+	display: flex;
+}
+
+.projects-row img {
+	width: 100%;
+}
+
+/* About */
+#about {
+    
+	padding: 80px 0;
+}
+
+.about-row {
+	display: flex;
+}
+
+.about-row-experience,
+.about-row-me {
+	width: 50%;
+	padding-left: 50px;
+}
+
+/* Contact */
+contact-section {
+    display: flex;
+    justify-content: center;
+}
+
+.container-contact {
+    padding: 2em;
+    margin: 0 auto;
+    text-align:center ;
+	align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 5em;
+    
+}
+
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+    border: 1px solid #fff;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: #249BF1;
+    border-radius: 30px;
+}
+
+/* Footer */
+#mainfooter {
+	text-align: center;
+	padding: 30px;
+}
