@@ -47,7 +47,7 @@ a {
 .container {
 	margin: auto;
 	max-width: 1300px;
-	overflow: auto;
+	overflow: hidden;
 	padding: 0 20px;
     
 }
@@ -69,7 +69,7 @@ a {
 	border: 1px solid #fff;
 	color: #fff;
 	text-transform: uppercase;
-	font-weight: 300px;
+	font-size: 0.6em;
 }
 
 .btn-outline:hover {
@@ -112,6 +112,10 @@ a {
 	display: flex;
 	padding: 20px;
 	text-align: center;
+}
+
+.menu-mobil {
+	display: none;
 }
 
 /* Showcase */
@@ -211,5 +215,13 @@ contact-section {
 #mainfooter {
 	text-align: center;
 	padding: 30px;
+	
+}
+
+.icon {
+	font-size: 1.8em;
+	background-color: #21222c;
+	color:#249BF1;
+	padding: 0.3em;
 }
 

@@ -4,6 +4,21 @@
 	padding: 50px 0;
 }
 
+.btn-outline {
+	display:none;
+}
+
+.container ul {
+	display: none;
+}
+
+
+.ul {
+	margin: 2em;
+}
+
+
+
 /* About */
 #about p,
 #about h4 {
