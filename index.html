@@ -4,8 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styles.css" />
-		<link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css" />
+		
+		<link rel="stylesheet" href="styles.css" /> 
+		<link rel="stylesheet" media="screen and (max-width:667px)" href="mobile.css" />
 		<title>Portfolio | Flavio Arzamendia</title>
         <link rel="icon" href="img/MILOGO.png">
 	</head>
@@ -69,7 +70,7 @@
 			</div>
 		</section>
 
-		
+ <section id="contact">
      <div class="contact-section">
 	  <div class="contact-headings">
 	  <h2>Contáctese</h2>
@@ -79,19 +80,22 @@
 	 <div class="contact-form">
 	   <h4>Envíame un mensaje...</h4>
 	   <form class="form">
-		 <input type="text" placeholder="Nombre">
-		 <input type="email" placeholder="Email">
-		 <textarea placeholder="Escribe tu mensaje aquí"></textarea>
-		 <button type="submit" class="btn-submit">Enviar</button>
+		 <input id="nombre" type="text" placeholder="Nombre">
+		 <input id="email" type="email" placeholder="Email">
+		 <textarea id="msg" placeholder="Escribe tu mensaje aquí"></textarea>
+		 <button  type="submit" class="btn-submit" onclick="getData()">Enviar</button>
 	   </form>
 	 </div>
 	</div>
      </div>
+	 </section>
 
 		<footer id="mainfooter">
 			<div class="container">
 				Flavio Arzamendia
 			</div>
 		</footer>
+
+		<script src="/function.js"></script>
 	</body>
 </html>
